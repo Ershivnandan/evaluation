@@ -147,7 +147,7 @@ nav ul {
 .scroller {
   display: flex;
   justify-content: center;
-  margin: 5rem 0 0 0;
+  margin: 5rem 0 5rem 0;
 }
 .cardGrid {
   gap: 20px;
