@@ -1,0 +1,230 @@
+body {
+  font-family: "Concert One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+}
+.logoDiv {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+nav .logoImg {
+  width: 200px;
+  height: auto;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  font-size: 18px;
+  margin-right: 50px;
+  color: #423f8d;
+  cursor: pointer;
+}
+.enrollBtn {
+  padding: 13px 43px;
+  border: none;
+  border-radius: 20px;
+  background: #12d9df;
+  color: white !important;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Concert One", system-ui;
+  cursor: pointer;
+}
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* main section CSS  */
+
+.section-1 {
+  overflow-x: hidden;
+  margin-top: 2rem;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.headingHero {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: -1rem;
+}
+.heroHeading .sp1 {
+  color: #423f8d;
+  font-size: 44px;
+}
+.heroHeading .sp2 {
+  color: #ed078b;
+  font-size: 44px;
+}
+.textHero {
+  display: flex;
+  justify-content: center;
+  padding: 0rem 18rem 0 18rem;
+}
+.heroText {
+  text-align: center;
+  color: #423f8d;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif !important;
+  line-height: 2rem;
+}
+
+/* container grid  */
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.imgGrid {
+  border-radius: 100px;
+  width: 100%;
+  float: left;
+  margin-right: 5rem;
+}
+.heroList ul {
+  list-style: none;
+  padding: 0 100px 0 100px;
+}
+.listItemHero {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.listItemText {
+  align-items: baseline;
+  gap: 10px;
+  position: relative;
+  top: -40px;
+}
+.listItemImageHero {
+  width: 70px;
+  height: auto;
+}
+.listItemHeadingHero {
+  font-size: 26px;
+  margin-bottom: -0.5rem;
+}
+.listItemTextHero {
+  font-family: "DM Sans", sans-serif !important;
+  color: #423f8d;
+  font-size: 16px;
+}
+
+/* class we offer  */
+
+.section-2 {
+  margin-top: 5rem;
+}
+.classWeHeading {
+  padding-top: 190px;
+}
+.classWe {
+  background-image: url("https://preview.colorlib.com/theme/kindergarten/assets/img/gallery/section_bg1.png.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 100px;
+}
+
+.scroller {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0 5rem 0;
+}
+.cardGrid {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 100%;
+  background: white;
+  border-radius: 30px;
+  padding: 0 0 20px 0;
+  -webkit-box-shadow: 2px 17px 46px -20px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 2px 17px 46px -20px rgba(0, 0, 0, 0.49);
+  box-shadow: 2px 17px 46px -20px rgba(0, 0, 0, 0.49);
+}
+.cardImage {
+  object-fit: contain;
+  width: fit-content;
+}
+.CardTextSection {
+  width: 20rem;
+  padding: 20px 5px 0px 10px;
+}
+.cardHeading {
+  width: 100%;
+  font-size: 28px;
+  font-weight: 500;
+  color: #423f8d;
+}
+
+.cardDetailSection {
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 20px 0 20px;
+}
+
+.cardDetailSecitonItem {
+  margin-bottom: -0.5rem;
+}
+.horizontalLine {
+  color: #423f8d;
+  opacity: 0.5;
+}
+
+.cardDetailP1 {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 16px;
+  color: #423f8d;
+  line-height: 2rem;
+}
+
+.cardDetailP2 {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 16px;
+  color: #423f8d;
+}
+
+/* center button style  */
+
+.moreClass {
+  display: flex;
+  justify-content: center;
+}
+
+.moreClass button {
+  border: 0.5px solid #ed078b;
+  color: #ed078b;
+  font-size: 22px;
+  font-family: "Concert One", system-ui;
+  padding: 20px 20px;
+  background: white;
+  border-radius: 30px;
+}
+.moreClass button:hover {
+  background-color: #ed078b;
+  color: white;
+  transition: color 0.5s linear;
+}
