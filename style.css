@@ -263,3 +263,50 @@ nav ul {
 
 
 /* Footer Section  */
+
+footer{
+    background-color: #0064d0 !important;
+}
+.footerGrid{
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5rem 5rem 2rem 5rem;
+    text-align: left;
+    gap: 200px;
+}
+.navigationItems{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 200px;
+}
+
+.gridItem1{
+    font-family: "DM Sans", sans-serif ;
+    color: white;
+    font-weight: 500;
+    gap: 200px;
+}
+
+.quickLinks{
+    color: white;
+    font-size: 20px;
+}
+
+.quickLinks ul{
+    list-style: none;
+    text-align: left;
+    gap: 100px;
+    padding: 0 !important;
+
+}
+.quickLinks ul li{
+    list-style: none;
+    font-family: "DM Sans", sans-serif ;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 2rem;
+    text-align: left;
+}
